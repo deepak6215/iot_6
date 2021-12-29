@@ -255,7 +255,7 @@ service vsftpd restart
 
 sleep 15
 
-mysql -u root -p$MYSQL_PASS iSolar_db < /home/iplon/iSolar_db.sql
+#mysql -u root -p$MYSQL_PASS iSolar_db < /home/iplon/iSolar_db.sql
 
 sudo -s
 
